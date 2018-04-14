@@ -1,7 +1,7 @@
 # Deep Learning for Nuclei Detection
 Code for Stage 1 Data Science Bowl 2018, based on [Mask RCNN](https://github.com/matterport/Mask_RCNN)
 
-Data was split into 95-5 train-validation, and model was chosen based on validation loss. Epoch 56 achieved 0.456 mean average precision at different intersection over union (IoU):
+Data was split into 95-5 train-validation, and model was chosen based on validation loss. Epoch 56 achieved 0.456 (stage 1 top 8%) mean average precision at different intersection over union (IoU):
 
 ![Val loss](https://i.imgur.com/9Y5Fyr1.png)
 
