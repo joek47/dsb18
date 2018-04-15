@@ -5,7 +5,7 @@ Stage 1 Data Science Bowl 2018, code based on [Mask RCNN](https://github.com/mat
 Here are some predictions on stage 1 test data:
 ![](https://i.imgur.com/uxx13ag.png)
 
-## Hyperparameters That Improved Stage 1 Score
+## Hyperparameters
 1. Larger min_dim and max_dim image size. There're significant improvements up to size 512. Here are the dimensions of most images in stage 1 train data.
   * (256, 256, 3) : 334
   * (1024, 1024, 3) : 16
