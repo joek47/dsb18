@@ -5,12 +5,6 @@ Stage 1 Data Science Bowl 2018, code based on [Mask RCNN](https://github.com/mat
 Here are some predictions on stage 1 test data:
 ![](https://i.imgur.com/uxx13ag.png)
 
-Data was split into 95-5 train-validation, and model was chosen based on validation loss. Epoch 56 achieved 0.456 (top 8%) mean average precision at different intersection over union (IoU):
-
-![Val loss](https://i.imgur.com/9Y5Fyr1.png)
-
-Other weights i.e. epoch 52 had higher validation loss and returned poorer (0.43) mean average precision score, therefore the validation loss appeared to correlate with mean average precision to a large extent.
-
 ## Hyperparameters That Improved Stage 1 Score
 1. Larger min_dim and max_dim image size. There're significant improvements up to size 512. Here are the dimensions of most images in stage 1 train data.
   * (256, 256, 3) : 334
