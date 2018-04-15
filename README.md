@@ -1,5 +1,9 @@
 # Deep Learning for Nuclei Detection
-Code for Stage 1 Data Science Bowl 2018, based on [Mask RCNN](https://github.com/matterport/Mask_RCNN)
+Stage 1 Data Science Bowl 2018, code based on [Mask RCNN](https://github.com/matterport/Mask_RCNN)
+
+## Detected Nuclei
+Here are some predictions on stage 1 test data:
+![](https://i.imgur.com/uxx13ag.png)
 
 Data was split into 95-5 train-validation, and model was chosen based on validation loss. Epoch 56 achieved 0.456 (top 8%) mean average precision at different intersection over union (IoU):
 
@@ -17,13 +21,5 @@ Other weights i.e. epoch 52 had higher validation loss and returned poorer (0.43
   * (256, 320, 3) : 112
 
 2. Don't use Mini Mask or use bigger Mini Mask like (112,112) since there are high resolution images.
-
-## Detected Nuclei
-Here are some predictions on stage 1 test data:
-![](https://i.imgur.com/uxx13ag.png)
-
-## Possible Improvements
-Data augmentation and morphological mask processing can be used to improve the results. 
-
 ## Acknowledgements
 CS6101 and Fast AI
