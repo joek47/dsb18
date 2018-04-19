@@ -1,7 +1,7 @@
 # Deep Learning for Nuclei Detection
-Data Science Bowl 2018, code based on [Mask RCNN](https://github.com/matterport/Mask_RCNN)
+[Data Science Bowl 2018](https://www.kaggle.com/c/data-science-bowl-2018/), code based on [Mask RCNN](https://github.com/matterport/Mask_RCNN)
 
-LB mAP - Stage 1 0.456, Stage 2 0.503
+Leaderboard mAP - Stage 1 0.456, Stage 2 0.503
 
 ## Detected Nuclei
 Here are some predictions on stage 1 test data:
