@@ -21,4 +21,7 @@ Here are some predictions on stage 1 test data:
 ## Results
 Leaderboard mAP - Stage 1 0.456, Stage 2 0.503
 
-Based on [Mask RCNN](https://github.com/matterport/Mask_RCNN)
+[Mask RCNN](https://github.com/matterport/Mask_RCNN)
+
+## Reference
+[1] K. He, G. Gkioxari, P. Dollár, and R. Girshick, “Mask R-CNN,” Biochem. Biophys. Res. Commun., vol. 79, no. 2, pp. 545–52, Mar. 2017.
