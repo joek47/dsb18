@@ -1,7 +1,5 @@
 # Deep Learning for Nuclei Detection
-[Data Science Bowl 2018](https://www.kaggle.com/c/data-science-bowl-2018/)
-
-Automate the process of identifying nuclei, which will allow for more efficient drug testing, shortening the 10 years it takes for each new drug to come to market.
+Using mask-rcnn to automate the process of identifying nuclei. Top 4% in Kaggle data science bowl 2018 final leaderboard.
 
 ## Detected Nuclei
 Here are some predictions on stage 1 test data:
